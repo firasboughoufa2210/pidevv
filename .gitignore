@@ -1,8 +1,13 @@
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
+<<<<<<< HEAD
 !**/src/main/**
 !**/src/test/**
+=======
+!**/src/main/**/target/
+!**/src/test/**/target/
+>>>>>>> c857545feb5c6cec3bdcc870c23b1ca4c62dab7a
 
 ### STS ###
 .apt_generated
@@ -26,6 +31,14 @@ target/
 /nbdist/
 /.nb-gradle/
 build/
+<<<<<<< HEAD
 
 ### VS Code ###
 .vscode/
+=======
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+>>>>>>> c857545feb5c6cec3bdcc870c23b1ca4c62dab7a
